@@ -21,7 +21,7 @@ public class Boletin2_10 {
         comision = ventas * 2;
         dietas = diasDesplazamiento * 30;
         sBruto = sueldoFijo + kilometros + comision + dietas;
-        sLiquido = sBruto - (sBruto*(float)0.18+36);
+        sLiquido = (sBruto - (sBruto*(float)0.18)-36);
         System.out.println("Sueldo Bruto = " + sBruto + " euros");
         System.out.println("Sueldo Líquido = " + sLiquido + " euros");
     } 
